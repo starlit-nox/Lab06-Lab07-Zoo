@@ -7,4 +7,26 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Bird.cs" />
+    <Compile Remove="Eagle.cs" />
+    <Compile Remove="Gecko.cs" />
+    <Compile Remove="Leopard.cs" />
+    <Compile Remove="Mammal.cs" />
+    <Compile Remove="Mockingbird.cs" />
+    <Compile Remove="Reptile.cs" />
+    <Compile Remove="Wolf.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Bird.cs" />
+    <None Include="Eagle.cs" />
+    <None Include="Gecko.cs" />
+    <None Include="Leopard.cs" />
+    <None Include="Mammal.cs" />
+    <None Include="Mockingbird.cs" />
+    <None Include="Reptile.cs" />
+    <None Include="Wolf.cs" />
+  </ItemGroup>
+
 </Project>
