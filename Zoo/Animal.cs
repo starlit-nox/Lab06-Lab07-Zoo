@@ -1,17 +1,18 @@
 ﻿namespace Zoo
 {
-    abstract class Animal : AnimalBase
+    abstract class Animal
     {
-        public override void Sleep()
+        public virtual void Sleep()
         {
             Console.WriteLine("Zzzzzz...");
         }
-        public override void Eat()
+        public virtual void Eat()
         {
             Console.WriteLine("is eating food.");
         }
-        public override void Move()
+        public virtual void Move()
         {
             Console.WriteLine("is moving around.");
         }
     }
+}
